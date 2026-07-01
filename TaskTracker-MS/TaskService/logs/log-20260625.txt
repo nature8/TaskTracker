@@ -1,0 +1,25 @@
+2026-06-25 21:13:06.260 +05:30 [INF] User profile is available. Using 'C:\Users\M S P\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-25 21:13:06.690 +05:30 [INF] Now listening on: https://localhost:7164
+2026-06-25 21:13:06.692 +05:30 [INF] Now listening on: http://localhost:5269
+2026-06-25 21:13:06.695 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-25 21:13:06.697 +05:30 [INF] Hosting environment: Development
+2026-06-25 21:13:06.698 +05:30 [INF] Content root path: D:\New Volume2\CSharpProgramming\C#Practice\Day 11\TaskTracker-MS\TaskService
+2026-06-25 21:13:06.716 +05:30 [INF] Bus started: "rabbitmq://localhost/"
+2026-06-25 21:15:51.185 +05:30 [INF] Request starting HTTP/2 POST https://localhost:7164/api/Auth/login?username=Prakruti - application/json 69
+2026-06-25 21:15:55.214 +05:30 [INF] Executing endpoint 'TaskService.Controllers.AuthController.Login (TaskService)'
+2026-06-25 21:15:55.247 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(System.String) on controller TaskService.Controllers.AuthController (TaskService).
+2026-06-25 21:15:55.283 +05:30 [INF] Login request received for user Prakruti
+2026-06-25 21:15:55.298 +05:30 [INF] JWT token generated successfully for user Prakruti
+2026-06-25 21:15:55.306 +05:30 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-06-25 21:15:55.356 +05:30 [INF] Executed action TaskService.Controllers.AuthController.Login (TaskService) in 90.4751ms
+2026-06-25 21:15:55.366 +05:30 [INF] Executed endpoint 'TaskService.Controllers.AuthController.Login (TaskService)'
+2026-06-25 21:15:55.372 +05:30 [INF] Request finished HTTP/2 POST https://localhost:7164/api/Auth/login?username=Prakruti - 200 null application/json; charset=utf-8 4190.4256ms
+2026-06-25 21:18:06.824 +05:30 [INF] Usage Telemetry: {"id":"9c730000-84db-ba45-0716-08ded2d07363","created":"2026-06-25T21:13:06.4090721\u002B05:30","host":{"framework_version":"10.0.9","mass_transit_version":"8.5.5.0","operating_system_version":"Microsoft Windows NT 10.0.22000.0","time_zone_info":"(UTC\u002B05:30) Chennai, Kolkata, Mumbai, New Delhi","commit_hash":"e2e54ca475ec334e2c44bca1538720904ced69df"},"bus":[{"created":"2026-06-25T21:13:06.4106452\u002B05:30","configured":"2026-06-25T21:13:06.4583155\u002B05:30","started":"2026-06-25T21:13:06.7139652\u002B05:30","name":"IBus","endpoints":[{"name":"_bus_","type":"RabbitMQ","prefetch_count":16}]}]}
+2026-06-25 21:20:04.263 +05:30 [INF] Request starting HTTP/2 GET https://localhost:7164/api/tasks - null null
+2026-06-25 21:20:04.291 +05:30 [INF] Executing endpoint 'TaskService.Controllers.TasksController.Get (TaskService)'
+2026-06-25 21:20:04.296 +05:30 [INF] Route matched with {action = "Get", controller = "Tasks"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Get() on controller TaskService.Controllers.TasksController (TaskService).
+2026-06-25 21:20:04.302 +05:30 [INF] Fetching all tasks at "2026-06-25T15:50:04.3017622Z"
+2026-06-25 21:20:04.305 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[TaskService.Models.TaskItem, TaskService, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-06-25 21:20:04.328 +05:30 [INF] Executed action TaskService.Controllers.TasksController.Get (TaskService) in 27.1207ms
+2026-06-25 21:20:04.332 +05:30 [INF] Executed endpoint 'TaskService.Controllers.TasksController.Get (TaskService)'
+2026-06-25 21:20:04.335 +05:30 [INF] Request finished HTTP/2 GET https://localhost:7164/api/tasks - 200 null application/json; charset=utf-8 71.6672ms

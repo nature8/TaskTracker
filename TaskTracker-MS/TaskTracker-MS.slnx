@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="Contracts/Contracts.csproj" />
+  <Project Path="Gateway/Gateway.csproj" />
+  <Project Path="TaskService/TaskService.csproj" />
+  <Project Path="UserService/UserService.csproj" />
+</Solution>
