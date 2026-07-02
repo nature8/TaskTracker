@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\New Volume2\\CSharpProgramming\\C#Practice\\Day 11\\TaskTracker-MS\\Contracts\\Contracts.csproj": {}
+    "C:\\My Folder\\TaskTracker\\TaskTracker-MS\\Contracts\\Contracts.csproj": {}
   },
   "projects": {
-    "D:\\New Volume2\\CSharpProgramming\\C#Practice\\Day 11\\TaskTracker-MS\\Contracts\\Contracts.csproj": {
+    "C:\\My Folder\\TaskTracker\\TaskTracker-MS\\Contracts\\Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\New Volume2\\CSharpProgramming\\C#Practice\\Day 11\\TaskTracker-MS\\Contracts\\Contracts.csproj",
+        "projectUniqueName": "C:\\My Folder\\TaskTracker\\TaskTracker-MS\\Contracts\\Contracts.csproj",
         "projectName": "Contracts",
-        "projectPath": "D:\\New Volume2\\CSharpProgramming\\C#Practice\\Day 11\\TaskTracker-MS\\Contracts\\Contracts.csproj",
-        "packagesPath": "C:\\Users\\M S P\\.nuget\\packages\\",
-        "outputPath": "D:\\New Volume2\\CSharpProgramming\\C#Practice\\Day 11\\TaskTracker-MS\\Contracts\\obj\\",
+        "projectPath": "C:\\My Folder\\TaskTracker\\TaskTracker-MS\\Contracts\\Contracts.csproj",
+        "packagesPath": "C:\\Users\\tailorpr\\.nuget\\packages\\",
+        "outputPath": "C:\\My Folder\\TaskTracker\\TaskTracker-MS\\Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\M S P\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\tailorpr\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

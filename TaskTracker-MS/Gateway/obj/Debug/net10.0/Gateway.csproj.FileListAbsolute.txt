@@ -40,3 +40,45 @@ D:\New Volume2\CSharpProgramming\C#Practice\Day 11\TaskTracker-MS\Gateway\obj\De
 D:\New Volume2\CSharpProgramming\C#Practice\Day 11\TaskTracker-MS\Gateway\obj\Debug\net10.0\Gateway.pdb
 D:\New Volume2\CSharpProgramming\C#Practice\Day 11\TaskTracker-MS\Gateway\obj\Debug\net10.0\Gateway.genruntimeconfig.cache
 D:\New Volume2\CSharpProgramming\C#Practice\Day 11\TaskTracker-MS\Gateway\obj\Debug\net10.0\ref\Gateway.dll
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\bin\Debug\net10.0\appsettings.Development.json
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\bin\Debug\net10.0\appsettings.json
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\bin\Debug\net10.0\ocelot.json
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\bin\Debug\net10.0\Gateway.staticwebassets.endpoints.json
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\bin\Debug\net10.0\Gateway.exe
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\bin\Debug\net10.0\Gateway.deps.json
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\bin\Debug\net10.0\Gateway.runtimeconfig.json
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\bin\Debug\net10.0\Gateway.dll
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\bin\Debug\net10.0\Gateway.pdb
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\bin\Debug\net10.0\FluentValidation.dll
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\bin\Debug\net10.0\IPAddressRange.dll
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\bin\Debug\net10.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\bin\Debug\net10.0\Microsoft.AspNetCore.MiddlewareAnalysis.dll
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\bin\Debug\net10.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\bin\Debug\net10.0\Microsoft.Extensions.DiagnosticAdapter.dll
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\bin\Debug\net10.0\Newtonsoft.Json.Bson.dll
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\bin\Debug\net10.0\Ocelot.dll
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\obj\Debug\net10.0\Gateway.csproj.AssemblyReference.cache
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\obj\Debug\net10.0\Gateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\obj\Debug\net10.0\Gateway.AssemblyInfoInputs.cache
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\obj\Debug\net10.0\Gateway.AssemblyInfo.cs
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\obj\Debug\net10.0\Gateway.csproj.CoreCompileInputs.cache
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\obj\Debug\net10.0\Gateway.MvcApplicationPartsAssemblyInfo.cs
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\obj\Debug\net10.0\Gateway.MvcApplicationPartsAssemblyInfo.cache
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\obj\Debug\net10.0\Gateway.sourcelink.json
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\obj\Debug\net10.0\scopedcss\bundle\Gateway.styles.css
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\obj\Debug\net10.0\staticwebassets.build.json
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\obj\Debug\net10.0\staticwebassets.development.json
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\obj\Debug\net10.0\swae.build.ex.cache
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\obj\Debug\net10.0\Gateway.csproj.Up2Date
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\obj\Debug\net10.0\Gateway.dll
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\obj\Debug\net10.0\refint\Gateway.dll
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\obj\Debug\net10.0\Gateway.pdb
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\obj\Debug\net10.0\Gateway.genruntimeconfig.cache
+C:\My Folder\TaskTracker\TaskTracker-MS\Gateway\obj\Debug\net10.0\ref\Gateway.dll

@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v10.0": {
-      "UserService/1.0.0": {
+      "userservice/1.0.0": {
         "dependencies": {
           "Contracts": "1.0.0",
           "MassTransit": "8.5.5",
@@ -20,7 +20,7 @@
           "System.IdentityModel.Tokens.Jwt": "8.19.1"
         },
         "runtime": {
-          "UserService.dll": {}
+          "userservice.dll": {}
         }
       },
       "MassTransit/8.5.5": {
@@ -337,7 +337,7 @@
     }
   },
   "libraries": {
-    "UserService/1.0.0": {
+    "userservice/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

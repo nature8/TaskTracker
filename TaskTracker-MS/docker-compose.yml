@@ -1,0 +1,65 @@
+version: '3.8'
+
+services:
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: tasktracker-rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    networks:
+      - tasktracker-net
+
+  userservice:
+    build:
+      context: .
+      dockerfile: ./UserService/Dockerfile
+    container_name: userservice
+    ports:
+      - "5237:8080"
+    depends_on:
+      - rabbitmq
+      - sqlserver
+    networks:
+      - tasktracker-net
+
+  taskservice:
+    build:
+      context: .
+      dockerfile: ./TaskService/Dockerfile
+    container_name: taskservice
+    ports:
+      - "5269:8080"
+    depends_on:
+      - rabbitmq
+      - sqlserver
+    networks:
+      - tasktracker-net
+
+  gateway:
+    build:
+      context: .
+      dockerfile: ./Gateway/Dockerfile
+    container_name: gateway
+    ports:
+      - "5000:8080"
+    depends_on:
+      - userservice
+      - taskservice
+    networks:
+      - tasktracker-net
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "Your_password123" # required by SQL Server
+    ports:
+      - "1433:1433"
+    networks:
+      - tasktracker-net
+
+networks:
+  tasktracker-net:
+    driver: bridge
