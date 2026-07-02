@@ -1,0 +1,30 @@
+{
+  "family": "apigateway-task",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "256",
+  "memory": "512",
+  "executionRoleArn": "arn:aws:iam::465532803836:role/ecsTaskExecutionRole",
+  "containerDefinitions": [
+    {
+      "name": "apigateway",
+      "image": "465532803836.dkr.ecr.ap-south-1.amazonaws.com/apigateway:latest",
+      "essential": true,
+      "portMappings": [
+        {
+          "containerPort": 8080,
+          "protocol": "tcp"
+        }
+      ],
+      "logConfiguration": {
+        "logDriver": "awslogs",
+        "options": {
+          "awslogs-group": "/ecs/apigateway-task",
+          "awslogs-region": "ap-south-1",
+          "awslogs-stream-prefix": "ecs",
+          "awslogs-create-group": "true"
+        }
+      }
+    }
+  ]
+}
