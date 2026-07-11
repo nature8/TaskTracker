@@ -59,6 +59,7 @@ Log.Logger = new LoggerConfiguration()
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 // Serilog
 builder.Host.UseSerilog();
 
@@ -109,7 +110,7 @@ h.Password("guest");
 
 var app = builder.Build();
 
-
+app.MapGet("/api/tasks/alive", () => Results.Ok("TaskService OK"));
 
 // Swagger Middleware
 if (app.Environment.IsDevelopment())

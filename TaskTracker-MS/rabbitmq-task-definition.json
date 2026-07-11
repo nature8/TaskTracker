@@ -1,5 +1,5 @@
 {
-  "family": "taskservice-task",
+  "family": "rabbitmq-task",
   "networkMode": "awsvpc",
   "requiresCompatibilities": ["FARGATE"],
   "cpu": "256",
@@ -7,21 +7,27 @@
   "executionRoleArn": "arn:aws:iam::465532803836:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
-      "name": "taskservice",
-      "image": "465532803836.dkr.ecr.ap-south-1.amazonaws.com/taskservice:latest",
+      "name": "rabbitmq",
+      "image": "rabbitmq:3-management",
       "essential": true,
       "portMappings": [
         {
-          "name": "http",
-          "containerPort": 8080,
-          "hostPort": 8080,
+          "name": "amqp",
+          "containerPort": 5672,
+          "hostPort": 5672,
+          "protocol": "tcp"
+        },
+        {
+          "name": "management",
+          "containerPort": 15672,
+          "hostPort": 15672,
           "protocol": "tcp"
         }
       ],
       "logConfiguration": {
         "logDriver": "awslogs",
         "options": {
-          "awslogs-group": "/ecs/taskservice-task",
+          "awslogs-group": "/ecs/rabbitmq-task",
           "awslogs-region": "ap-south-1",
           "awslogs-stream-prefix": "ecs",
           "awslogs-create-group": "true"
